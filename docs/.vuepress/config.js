@@ -24,7 +24,7 @@ module.exports = {
           title: '打包自定义工具库', // 标题
           collapsable: false, // 下级列表不可折叠
           children: [ // 下级列表
-            'chapter1/01_创建工具包项目',
+            'chapter1',
 
           ]
         }
