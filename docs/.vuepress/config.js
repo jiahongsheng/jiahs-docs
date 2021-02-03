@@ -25,9 +25,32 @@ module.exports = {
           collapsable: false, // 下级列表不可折叠
           children: [ // 下级列表
             'chapter1/01_创建工具包项目',
-
+            'chapter1/02_发布到npm中央仓库',
+            'chapter1/03_使用自定义工具包',
           ]
-        }
+        },
+        {
+          title: '各种自定义',
+          collapsable: false,
+          children: [
+            'chapter2/01_函数相关',
+            'chapter2/02_数组相关',
+            'chapter2/03_对象相关',
+            'chapter2/04_字符串相关',
+            'chapter2/05_手写带委托的事件监听',
+            'chapter2/06_手写ajax请求函数',
+            'chapter2/07_手写事件总线',
+            'chapter2/08_手写消息订阅与发布',
+            'chapter2/09_手写Promise',
+          ]
+        },
+        {
+          title: '快速搭建在线文档网站',
+          collapsable: false,
+          children: [
+            'chapter3/',
+          ]
+        },
       ],
       // sidebarDepth: 3 // 左侧导航的深度默认是2级
     },
