@@ -2,14 +2,14 @@
 module.exports = {
   base: '/jiahs-docs/', /* 基础虚拟路径 */
   dest: 'docs/dist', /* 打包文件基础路径, 在命令所在目录下 */
-  title: '自定义工具函数库', // 标题
-  description: '尚硅谷前端研究院', // 标题下的描述
+  title: '前端智旅', // 标题
+  description: 'webkoaloaboy', // 标题下的描述
   
   themeConfig: { // 主题配置
     logo: '/logo.png',
     nav: [ // 头部导航
-      { text: '官网', link: 'http://www.atguigu.com' },
-      { text: '谷粒学院', link: 'http://www.gulixueyuan.com/' },
+      { text: '可视化学习中心', link: 'http://www.atguigu.com' },
+      { text: '移动端学习中心', link: 'http://www.gulixueyuan.com/' },
       { 
         text: '学习路线', 
         items: [
@@ -30,7 +30,7 @@ module.exports = {
         ]
       },
       {
-        title: '各种自定义',
+        title: '手动造轮子',
         collapsable: false,
         children: [
           'chapter2/01_函数相关',
